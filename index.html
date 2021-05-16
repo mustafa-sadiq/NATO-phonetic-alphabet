@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>NATO phonetic alphabet</title>
+</head>
+
+<body>
+    <div class="d-flex p-2 justify-content-center topheading">
+         <a href="https://en.wikipedia.org/wiki/NATO_phonetic_alphabet" class="link-primary" target="_blank" rel="noopener noreferrer">NATO phonetic alphabet</a>
+    </div>
+    <hr>
+
+    <div class="d-flex justify-content-center">
+        <div class="d-flex flex-column">
+            <form>
+                <div class="form-group">
+                    <label for="comment">Text input:</label>
+                    <textarea class="form-control" rows="3" id="textInput" placeholder="e.g. your first name"></textarea>
+                </div>
+
+                <button type="button" class="btn btn-primary" onclick="solve()">Submit</button>
+                <button type="button" class="btn btn-primary" onclick="resetResult()">Reset</button>
+            </form>
+            <p></p>
+            <p></p>
+            
+
+            <div id='result'></div>
+
+            <p></p>
+            <p></p>
+            <p class="font-weight-normal">Abstract:</p>
+            <p class="font-weight-light">To make it easy to send/receive information over the phone using NATO phonetic alphabets</p>
+        </div>
+    </div>
+
+
+    <hr>
+    <footer class="footer text-center">
+        <small>Copyright © <a href="https://mustafa-sadiq.github.io/" target="_blank" rel="noopener noreferrer">Mustafa Sadiq</a> 2021</small>
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

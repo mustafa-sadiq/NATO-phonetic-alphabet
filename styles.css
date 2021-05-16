@@ -1,0 +1,15 @@
+body {    
+    background-color: whitesmoke;
+    margin-top: 100px;
+}
+
+.topheading {
+    margin-top: 11px;
+    /* border: 2px solid black; */
+    font-size: 20px;
+    color: black;
+}
+
+.footer {
+    padding-bottom: 20px;
+}
